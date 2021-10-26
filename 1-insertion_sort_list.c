@@ -1,17 +1,16 @@
 #include "sort.h"
 
 /**
- *
- *
- *
- *
+ *insertion_sort_list - extract elements and inster sorted in another
+ *@list: is the list with the nodes
+ *Return: will return nothing (void)
  */
 
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *rNode, *lNode;
 
-	if (!list || !(*list)->next)
+	if (!list || !(*list) || !(*list)->next)
 	{
 		return;
 	}
@@ -40,7 +39,6 @@ void insertion_sort_list(listint_t **list)
 			{
 				*list = rNode;
 			}
-
 			print_list(*list);
 		}
 		rNode = rNode->next;
