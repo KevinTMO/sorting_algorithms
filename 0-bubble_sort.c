@@ -1,10 +1,10 @@
 #include "sort.h"
 
 /**
- *
- *
- *
- *
+ *bubble_sort - will sort in ascending order starting from first pos
+ *@array: is an array of integers
+ *@size: is the size of the array (total of elements)
+ *Return: will return nothing (void)
  */
 
 void bubble_sort(int *array, size_t size)
