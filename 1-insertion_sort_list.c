@@ -35,7 +35,7 @@ void insertion_sort_list(listint_t **list)
 
 			lNode->prev = rNode;
 
-			if (rNode->prev != NULL)
+			if (rNode->prev == NULL)
 			{
 				*list = rNode;
 			}
