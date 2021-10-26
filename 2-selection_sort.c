@@ -1,10 +1,10 @@
 #include "sort.h"
 
 /**
- *
- *
- *
- *
+ *selection_sort - select the smallest element from an unsorted list
+ *@array: an array of integers
+ *@size: is total of elements in the array
+ *Return: will return nothing (void)
  */
 
 void selection_sort(int *array, size_t size)
