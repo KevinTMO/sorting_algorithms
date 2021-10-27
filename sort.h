@@ -24,6 +24,7 @@ typedef struct listint_s
 
 void print_list(const listint_t *list);
 void print_array(const int *array, size_t size);
+void recursion(int *array, size_t low, size_t high, size_t size);
 
 /* TASK FUNCTIONS BELOW */
 
